@@ -1,0 +1,60 @@
+﻿@page
+@model team3.Pages.TasksModel
+@{
+}
+
+<!--This code is for the styling of the Buchunt webpage which links dirrectly to Tasks.cshtml.cs
+    Last modified 11/30/2022
+    Created by Philip Gaver, Jackson Coffey, Tanner Collins
+-->
+
+<head> 
+         <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
+   
+</head>
+<body>
+<h1>BucHunt</h1>
+<div id="wrapper">
+{
+
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+       <table class="table">
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Location</th>
+                    <th>Answer</th>
+                    <th>Submit</th>
+                </tr>
+        </thead>
+        <tbody>
+          
+            
+
+
+<!--This code below is a for loop with the task items from the list in Tasks.cshtml.cs-->
+
+@foreach(var task in Model.ListsTasks)
+{
+           <tr>
+                <td>@task.Question</td>
+                <td>@task.Location</td>
+                <td>@task.Answer</td>
+            </tr>
+}
+        </tbody>
+    </table>
+
+         </div>
+    <div class="col-md-6">
+    <div id="map"></div>
+    </div>
+    </div>
+    </div>
+
+}
+    </div>
+</body>
