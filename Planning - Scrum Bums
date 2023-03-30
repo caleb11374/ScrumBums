@@ -12,6 +12,7 @@ Coding Standards:
 Unit Testing: At the end of a feature's completion, test both happy and unhappy paths
 Requirements Testing: PO's job, traceability matrix
 Documentation: Commenting, Readme, UML Diagram
+GitHub Standard: Push atleast once per task. Pull frequently.
 Tools: DB Browser for SQLite
   IDE: VS
 
