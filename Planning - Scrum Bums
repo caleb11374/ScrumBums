@@ -23,7 +23,7 @@ Tasks:
   Get everyone connected to the Github 
   Get test accounts and give out the logins for at least one admin account and at least one player account 
   A.3.c Cannot change status or creation date (Can modify start time before it has started, status changes automatically)
-    * Not being able to delete a hunt once it has started (Remove functionality)
+    * Not being able to delete a hunt once it has started (Remove functionality) Max Key
     * Edit the start time 
     * Test that the current solution changes status automatically
     * Cannot edit creation date
