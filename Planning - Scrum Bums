@@ -19,15 +19,16 @@ Sprint 1:
 Objective: Get everyone onto the same page, get the solution up onto the VM, and get the development environment set up. 
 *** SUBJECT TO CHANGE ***
 Tasks: 
-
   Get the Github set up 
-
   Get everyone connected to the Github 
-
   Get test accounts and give out the logins for at least one admin account and at least one player account 
-
   Figure out how to get the current solution onto the VM 
-
   Deploy the solution to the VM 
-
   Show everyone how to connect to it 
+  
+Secondary Objective Options:
+  A.2.c Custom Invitations
+  A.2.f Hunt URLs
+  A.3.a Can only edit pending or active hunts
+  A.3.c Cannot change status or creation date (Can modify start time before it has started, status changes automatically)
+  A.4.d Access Code and Invitation sending
